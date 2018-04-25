@@ -35,6 +35,7 @@ class OptionsTester implements OptionsTesterInterface
     public function has($name)
     {
 		return true;
+		
         /* $id = sprintf('option-%s', $name);
 
         if ($this->cache->contains($id)) {
